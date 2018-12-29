@@ -2,11 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'cf-nav',
-  template: `
-    <p>
-      nav works!
-    </p>
-  `,
+  templateUrl: 'nav.component.html',
   styleUrls: ['./nav.component.scss']
 })
 export class NavComponent implements OnInit {

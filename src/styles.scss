@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+main, nav, footer {
+  max-width: 500px;
+  display: block;
+  padding: 10px 20px;
+}

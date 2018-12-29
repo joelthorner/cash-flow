@@ -10,7 +10,7 @@
       "prefix": "cf",
       "schematics": {
         "@schematics/angular:component": {
-          "inlineTemplate": true,
+          "inlineTemplate": false,
           "styleext": "scss",
           "spec": false
         },
