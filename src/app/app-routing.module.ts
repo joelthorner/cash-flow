@@ -8,14 +8,14 @@ const routes: Routes = [
     path: '',
     component: HomeComponent
   },
-  // {
-  //   path: 'about',
-  //   loadChildren: './views/about/about.module#AboutModule'
-  // },
-  // {
-  //   path: 'operations',
-  //   loadChildren: './views/operations/operations.module#OperationsModule'
-  // },
+  {
+    path: 'about',
+    loadChildren: './views/about/about.module#AboutModule'
+  },
+  {
+    path: 'operations',
+    loadChildren: './views/operations/operations.module#OperationsModule'
+  },
   {
     path: 'not-found',
     component: NotFoundComponent
